@@ -47,3 +47,19 @@ background-color: gray;
 .apple::after{
 content: '🍏';
 }
+
+.leaderboard {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+.leaderboard th,
+.leaderboard td {
+  padding: 5px 10px;
+  text-align: center;
+}
